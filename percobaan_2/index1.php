@@ -7,7 +7,15 @@
 </head>
 <body>
     <?php 
-        echo "Percobaan file ke 2";
+        //echo "Percobaan file ke 2";
+
+        $nama_depan = "Delvyo";
+        $nama_tengah = "Pasha";
+        $nama_belakang = "Adhityara";
+
+        echo "namaku " . $nama_depan . " " . $nama_tengah . " " . $nama_belakang;
+
+
     ?>
 </body>
 </html>
