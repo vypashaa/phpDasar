@@ -1,5 +1,8 @@
 <?php
-    $dataSiswa = ["Delvyo Pasha Adhityara", "0001", "RPL", "pasha01@gmail.com"];
+    $dataSiswa = [
+        ["Delvyo Pasha Adhityara", "0001", "RPL", "pasha01@gmail.com"], ["Alden Al firdaus", "0002", "TPTU", "Alden02@gmail.com"], ["Ahmad Fadil Mubarok", "0001", "RPL", "pasha01@gmail.com"]
+    
+    ];
 
 ?>
 
@@ -13,13 +16,14 @@
 <body>
     <h1>Daftar Nama Siswa</h1>
 
-  
+    <?php foreach($dataSiswa as $data) : ?>
     <ul>
-        <li> <?php echo $dataSiswa[0]; ?> </li>
-        <li> <?php echo $dataSiswa[1]; ?> </li>
-        <li> <?php echo $dataSiswa[2]; ?> </li>
-        <li> <?php echo $dataSiswa[3]; ?> </li>
+        <li> <?php echo $data[0]; ?> </li>
+        <li> <?php echo $data[1]; ?> </li>
+        <li> <?php echo $data[2]; ?> </li>
+        <li> <?php echo $data[3]; ?> </li>
     </ul>
+    <?php endforeach;?>
 
 </body>
 </html>
