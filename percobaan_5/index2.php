@@ -13,10 +13,13 @@
 <body>
     <h1>Daftar Nama Siswa</h1>
 
+  
     <ul>
-        <?php foreach ($dataSiswa as $data) : ?>
-            <li><?php echo $data;?></li>
-        <?php endforeach?>
+        <li> <?php echo $dataSiswa[0]; ?> </li>
+        <li> <?php echo $dataSiswa[1]; ?> </li>
+        <li> <?php echo $dataSiswa[2]; ?> </li>
+        <li> <?php echo $dataSiswa[3]; ?> </li>
     </ul>
+
 </body>
 </html>
