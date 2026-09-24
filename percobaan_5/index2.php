@@ -14,10 +14,9 @@
     <h1>Daftar Nama Siswa</h1>
 
     <ul>
-        <li>Delvyo Pasha Adhiyara</li>
-        <li>0001</li>
-        <li>RPL</li>
-        <li>pasha01@gmail.com</li>
+        <?php foreach ($dataSiswa as $data) : ?>
+            <li><?php echo $data;?></li>
+        <?php endforeach?>
     </ul>
 </body>
 </html>
