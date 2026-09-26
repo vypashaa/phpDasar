@@ -18,10 +18,10 @@
 
 //     var_dump($nama1);
 //     echo "<br>";
-// //print_r, isi lebih sedikit dan minimalis
+    //print_r, isi lebih sedikit dan minimalis
 //     print_r($nama);
 //     echo "<br>";
-// //echo dapat menampilkan salah satu elemen pada array
+    //echo dapat menampilkan salah satu elemen pada array
 //     echo $nama[0];
 
 //menambahkan eleman baru ke array
