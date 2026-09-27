@@ -1,3 +1,17 @@
+<?php 
+    // cek apakah tidak ada data di $_GET
+    if (!isset($_GET["nama"]) || 
+        !isset($_GET["nik"]) ||
+        !isset($_GET["jabatan"]) ||
+        !isset($_GET["email"]) || 
+        !isset($_GET["telepon"]) ||
+        !isset($_GET["gambar"])) {
+        //redirect
+        header("Location: index.php");
+        exit;
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
