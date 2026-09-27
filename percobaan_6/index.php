@@ -5,7 +5,8 @@
             "nik" => "200901",
             "jabatan" => "CEO",
             "email" => "vyooPasha@gmail.com",
-            "telepon" => "089518821882"
+            "telepon" => "089518821882",
+            "gambar" => "vyo.jpeg"
         ],
 
         [
@@ -13,7 +14,8 @@
             "nik" => "200902",
             "jabatan" => "Manager HRD",
             "email" => "hartantoBagus@gmail.com",
-            "telepon" => "086790124532"
+            "telepon" => "086790124532",
+            "gambar" => "bagus.jpeg"
         ],
 
         [
@@ -21,7 +23,8 @@
             "nik" => "200903",
             "jabatan" => "Manager Keuangan",
             "email" => "Dynprasetya@gmail.com",
-            "telepon" => "085145670978"
+            "telepon" => "085145670978",
+            "gambar" => "dian.jpeg"
         ],
 
         [
@@ -29,15 +32,17 @@
             "nik" => "200904",
             "jabatan" => "Manager IT",
             "email" => "ApadielM@gmail.com",
-            "telepon" => "089768854329"
+            "telepon" => "089768854329",
+            "gambar" => "padiel.png"
         ],
 
         [
-            "nama" => "Arya Ramadhani", 
+            "nama" => "Aryasatya Wijayakusuma", 
             "nik" => "200905",
             "jabatan" => "Manager Pemasaran",
-            "email" => "AryaJaizR@gmail.com",
-            "telepon" => "087654341232"
+            "email" => "satyawijayaK@gmail.com",
+            "telepon" => "087654341232",
+            "gambar" => "satya.jpeg"
         ],
 
         [
@@ -45,7 +50,8 @@
             "nik" => "200906",
             "jabatan" => "Sekertaris",
             "email" => "AdmaMaul@gmail.com",
-            "telepon" => "089988776655"
+            "telepon" => "089988776655",
+            "gambar" => "maul.jpeg"
         ],
 
         [
@@ -53,7 +59,8 @@
             "nik" => "200907",
             "jabatan" => "HR Analyst",
             "email" => "AthyaQ@gmail.com",
-            "telepon" => "089754753241"
+            "telepon" => "089754753241",
+            "gambar" => "athaya.jpeg"
         ],
 
         [
@@ -61,7 +68,8 @@
             "nik" => "200908",
             "jabatan" => "Digital Marketer",
             "email" => "AlvianRaps@gmail.com",
-            "telepon" => "087695731243"
+            "telepon" => "087695731243",
+            "gambar" => "rapaa.png"
         ],
 
         [
@@ -69,7 +77,8 @@
             "nik" => "200909",
             "jabatan" => "Admin Kantor",
             "email" => "VidiPratama@gmail.com",
-            "telepon" => "089767765434"
+            "telepon" => "089767765434",
+            "gambar" => "vidie.jpeg"
         ],
 
         [
@@ -77,7 +86,8 @@
             "nik" => "200910",
             "jabatan" => "Resepsionis",
             "email" => "FauzanEl@gmail.com",
-            "telepon" => "0879653412321"
+            "telepon" => "0879653412321",
+            "gambar" => "ahktar.jpeg"
         ],
     ];
 
@@ -103,6 +113,9 @@
             <li>Jabatan: <?php echo $karyawan["jabatan"];?></li>
             <li>Email: <?php echo $karyawan["email"];?></li>
             <li>Telepon: <?php echo $karyawan["telepon"];?></li>
+            <li>
+                <img src="img/<?php echo $karyawan["gambar"]; ?>" width="120" height="150">
+            </li>
         </ul>
     <?php endforeach ?>
 </body>
