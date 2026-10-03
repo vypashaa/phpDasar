@@ -30,12 +30,12 @@
                 <a href="">edit</a>
                 <a href="">hapus</a>
             </td>
-            <td><img src="" alt=""></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><img src="img/vyo.jpeg" alt="Gambar CEO" width="50"></td>
+            <td>001</td>
+            <td>Delvyo Pasha Adhityara</td>
+            <td>CEO</td>
+            <td>delpasha@gmail.com</td>
+            <td>08951882882</td>
         </tr>
     </table>
 </body>
